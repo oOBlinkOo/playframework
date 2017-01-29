@@ -15,6 +15,7 @@ object Application extends Controller {
   /** 
    * A String Enumerator producing a formatted Time message every 100 millis.
    * A callback enumerator is pure an can be applied on several Iteratee.
+   * hola
    */
   lazy val clock: Enumerator[String] = {
     
